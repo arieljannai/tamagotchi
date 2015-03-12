@@ -233,7 +233,7 @@ function blinkRed(on,off)
     }
     redLed.write(redLedState?1:0);
     redLedState = !redLedState;
-    setTimeout(blinkRed,200);
+    setTimeout(blinkRed,50);
 }
 
 blinkRed();
