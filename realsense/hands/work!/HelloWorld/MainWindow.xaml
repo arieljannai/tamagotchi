@@ -1,0 +1,21 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hello World RealSense App" Width="1200" Height="720"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing"
+        Loaded="Window_Loaded"
+        ResizeMode="CanMinimize" >
+
+    <Grid ShowGridLines="True">
+
+        <Image x:Name="imgColorStream" Margin="0,0,-0.4,0.4"/>
+        <Image x:Name="Schlez" Margin="503,187,490.6,303.4"/>
+        <Image x:Name="Breakfast" Height="100" Width="100" Margin="0,0,965.6,539.4" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Image x:Name="FrenchFries" Height="100" Width="100" Margin="0,0,1027.6,118.4" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Image x:Name="IceCream" Height="100" Width="100" Margin="0,0,79.6,177.4" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Image x:Name="heart" Height="80" Width="80" Margin="0,119,99.6,0" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+        <Label x:Name="lblMessage" HorizontalContentAlignment="Center" Background="Yellow" FontSize="24" Margin="0,0,350.6,0.4" HorizontalAlignment="Right" Width="340" Height="67" VerticalAlignment="Bottom"/>
+        <Label x:Name="lblCor" HorizontalContentAlignment="Center" Background="Yellow" FontSize="24" Margin="0,0,725.6,0.4" HorizontalAlignment="Right" Width="340" Height="67" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

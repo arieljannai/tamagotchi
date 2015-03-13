@@ -1,0 +1,10 @@
+﻿<Window x:Class="BlockHead.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BlockHead" WindowStartupLocation="CenterScreen" Closing="Window_Closing" Width="640" Height="480" Loaded="Window_Loaded" ResizeMode="CanMinimize" Icon="icon.ico">
+    <Canvas>
+        <Image x:Name="imgMain" Width="640" Height="480"/>
+        <Image x:Name="imgFace" Source="faceBasic.png"></Image>
+        <Label x:Name="faceExpressionTitle"  FontSize="20" Content="HI!"/>
+    </Canvas>
+</Window>
